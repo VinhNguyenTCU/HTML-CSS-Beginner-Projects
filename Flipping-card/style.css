@@ -53,10 +53,11 @@ section::after{
     backdrop-filter: blur(25px);
 }
 
-.card-frontface .logo{
+.card-frontface .logo img{
     height: 10px;
     width: 10px;
     position: relative;
     align-items: center;
-    
+    justify-content: center;
+
 }

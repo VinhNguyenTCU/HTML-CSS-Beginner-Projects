@@ -51,13 +51,25 @@ section::after{
     border-radius: 25px;
     box-shadow: 15px 7px 45px rgb(255,255,255,0.2);
     backdrop-filter: blur(25px);
+    padding: 25px;
 }
 
-.card-frontface .logo img{
-    height: 10px;
-    width: 10px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+.logo {
+    height: 70px;
+    width: 48px;
+    display: flex;
+}
 
+.card .name{
+    float: right;
+    font-weight: bold;
+    padding-right: 15px;
+    position: relative;
+    
+}
+
+.frog-fountain{
+    display: flex;
+    height: 170px;
+    padding: 5px;
 }

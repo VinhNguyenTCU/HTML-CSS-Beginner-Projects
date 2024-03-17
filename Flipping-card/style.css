@@ -15,6 +15,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 section::before{
@@ -42,6 +43,8 @@ section::after{
     width: 450px;
     position: relative;
     z-index: 100;
+    transition: 0.7s;
+    transform-style: preserve-3d;
 }   
 
 .container .card{
@@ -52,6 +55,12 @@ section::after{
     box-shadow: 15px 7px 45px rgb(255,255,255,0.2);
     backdrop-filter: blur(25px);
     padding: 25px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.container:active{
+    transform: rotateY(180deg);
 }
 
 .logo {
@@ -126,5 +135,11 @@ section::after{
     top: -60px;
     position: relative;
     right: 15px;
+}
+
+.card.back-face{
+    border: none;
+    padding: 15px 25px 25px 25px;
+    transform: rotateY(180deg);
 }
 

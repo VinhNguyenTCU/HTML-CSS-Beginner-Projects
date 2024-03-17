@@ -9,7 +9,7 @@
 }
 
 section{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-color: #121321;
     display: flex;
@@ -82,3 +82,49 @@ section::after{
     right: -38px;
     top: 21px;
 }
+
+.card .magnet{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.card .info{
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.card .contact{
+    margin-top: 15px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.info .phone-number{
+    padding-left: 73px;
+}
+
+.info .support-line{
+    padding-left: 42px;
+}
+
+.frog-shield{
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    justify-content:right;
+    position: relative;
+    top: -20px;
+    right: 40px;
+}
+
+.qrcode{
+    display: flex;
+    height: 100px;
+    justify-content: right;
+    top: -60px;
+    position: relative;
+    right: 15px;
+}
+

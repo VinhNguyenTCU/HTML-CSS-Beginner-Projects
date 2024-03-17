@@ -73,3 +73,12 @@ section::after{
     height: 170px;
     padding: 5px;
 }
+
+.avatar{
+    display: flex;
+    height: 140px;
+    align-self: baseline;
+    position: relative;
+    right: -38px;
+    top: 21px;
+}
